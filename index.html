@@ -6,7 +6,7 @@
   <title>Movie Reviews NOW!</title>
 
   <link rel="stylesheet" href="./styles.css">
-  <script src="app.js"></script>
+  <script defer src="app.js"></script>
   <script src="https://kit.fontawesome.com/ece84607b5.js" crossorigin="anonymous"></script>
 
   <h1 class="site-title">Movie Reviews NOW!</h1>
@@ -16,6 +16,15 @@
       <button>Home</button>
       <button>Contact</button>
       <button>Sign Up</button>
+       
+ <div class="sort-container">
+        <select name="movieSort" id="movieSort" onchange="sortChange(event)">
+         option>
+          <option value="newest">Newest to Oldest</option>
+          <option value="oldest">Oldest to Newest</option>
+        </select>
+      </div>
+
     </nav>
 
    
@@ -26,6 +35,8 @@
 
      
     <div class="movies">
+       
+
       
 <div class="movie">
                             <figure class="movie__img--wrapper">

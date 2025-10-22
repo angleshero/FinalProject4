@@ -7,7 +7,7 @@ body {
 }
 
 main {
-  background-color #6d6b67ff;
+  background-color: #6d6b67ff;
   padding: 20px;
 }
 
@@ -24,6 +24,11 @@ header {
   padding-right: 20px;
   font-size: 1.5em;
 }
+
+.sort-container {
+  margin-left: auto; 
+}
+
 
 
 
